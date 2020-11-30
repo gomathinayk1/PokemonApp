@@ -10,7 +10,7 @@
                     <button type="submit" class="btnfix" (click)="getPokemon()"><i class="fa fa-search"></i></button>
                     <div *ngIf ="showAll" id="nameDiv">
 
-                        <a *ngFor = "let name of allPokemon; index as i" (click)="hideAll(i)" class="a">{{name|uppercase}}</a>
+                        <a *ngFor = "let name of allPokemon; index as i" (click)="hideAll(i)" class="a">{{name}}</a>
                     </div>
                 </div>
             </div>
